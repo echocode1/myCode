@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(0, 0%, 91%);
+  font-family: "Nunito Sans";
+  font-size: 20px;
+  font-weight: 500;
+}
+.container {
+  padding: 20px 30px;
+  min-width: 320px;
+  max-width: 567px;
+}
+h2 {
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.welcome--note {
+  background-color: rgba(253, 221, 221, 0.562);
+  padding: 15px 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.guild--head {
+  margin: 10px 0 20px 0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+ul {
+  margin-left: 40px;
+  margin-bottom: 40px;
+}
+li {
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  background-color: hsl(0, 1%, 32%);
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 4px 4px rgb(156, 138, 138);
+  width: 50%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a:hover {
+  background-color: hsl(0, 1%, 50%);
+  box-shadow: 4px 4px rgb(61, 60, 60);
+}
+
+@media (min-width: 576px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    padding: 50px 40px;
+    background-color: #fff;
+    border-radius: 15px;
+  }
+  .welcome--note {
+    background-color: hsl(0, 0%, 89%);
+    padding: 15px 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  h2 {
+    font-size: 2.5rem;
+    font-weight: 800;
+  }
+  .guild--head {
+    font-size: 2rem;
+    line-height: 1.2;
+    font-weight: 700;
+  }
+}
